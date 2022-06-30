@@ -25,7 +25,9 @@ import org.springframework.stereotype.Component;
 
 @Component("demoServiceComponent")
 public class DemoServiceComponent implements DemoService {
-    @Reference
+//    @Reference
+//    @Reference(protocol = "http")
+    @Reference(protocol = "dubbo")
     private DemoService demoService;
 
     @Override
