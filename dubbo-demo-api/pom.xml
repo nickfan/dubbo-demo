@@ -37,7 +37,6 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <skip_maven_deploy>true</skip_maven_deploy>
-        <spring-boot-maven-plugin.version>2.1.4.RELEASE</spring-boot-maven-plugin.version>
     </properties>
 
     <artifactId>dubbo-demo-api</artifactId>
